@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body{
     margin-top: 22px;
 }
@@ -35,12 +39,12 @@ body{
     line-height: 18px;
 }
 
-.article_header-text--orange{
+.text--orange{
     color: #FA5B3D;
 }
 
-.article_header-text--gray{
-    color: rgba(35, 32, 31, 0.5);
+.text--gray{
+    color: rgba(35, 32, 31, 0.6);
 }
 
 .article-heading{
@@ -52,4 +56,59 @@ body{
     font-size: 22px;
     line-height: 30px;
     max-width: 675px;
+}
+
+.article-preview--info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(35, 32, 31, 0.1);
+}
+
+.article-author{
+    display: flex;
+    gap: 20px;
+}
+
+.author-avatar{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.author-name{
+    margin-bottom: 2px;
+}
+
+.author-info--text{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.article-links{
+    padding-top: 7px;
+    display: flex;
+    gap: 15px;
+}
+
+.article-link{
+    text-decoration: none;
+}
+
+.article-section{
+    margin-bottom: 60px;
+    max-width: 700px;
+}
+
+.article-section--heading{
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.article-section--text{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 30px;
 }
