@@ -112,3 +112,28 @@ body{
     line-height: 28px;
     margin-top: 30px;
 }
+
+.intro-nav--heading{
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+
+.intro-nav--item{
+    list-style-position: inside;
+    padding: 0;
+}
+
+.intro-nav--items{
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+
+.intro-nav--links{
+    text-decoration-line: underline;
+    color: #1C5F87;
+    padding-left: 10px;
+}
+
