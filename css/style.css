@@ -155,7 +155,25 @@ body{
     margin: 0;
 }
 
-.article-heading{
+.table{
+    width: 700px;
+    border-collapse: collapse;
     
+}
+
+.thead, .tfoot{
+    background: #1C5F87;
+    color: #FFFFFF;
+    
+}
+
+td, th{
+    border: 1px solid rgba(35, 32, 31, 0.6);
+}
+
+td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
 }
 
