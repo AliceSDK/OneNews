@@ -181,3 +181,17 @@ td{
     padding-left: 25px;
 }
 
+.col-first{
+    max-width: 200px;
+}
+
+.col-second,
+.col-third,
+.col-fourth{
+    padding-left: 0;
+    text-align: center;
+}
+
+.text-note{
+    padding-top: 15px;
+}
