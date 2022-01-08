@@ -168,15 +168,15 @@ body{
     
 }
 
-td, th{
+.cell, .thead-cell{
     border: 1px solid rgba(35, 32, 31, 0.6);
 }
 
-th{
+.thead-cell{
     height: 38px;
 }
 
-td{
+.cell{
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 25px;
@@ -200,4 +200,18 @@ td{
 .img-diag{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.table-arrears{
+    max-width: 570px;
+}
+
+.cell-arrears{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row-arrears:nth-child(even){
+    background: #CFE1EB;
+    border-radius: 4px;
 }
